@@ -7,7 +7,7 @@ const router = express.Router();
 //const conf = require('./conf.js');
 
 // Connect to mongodb
-mongoose.connect('mongodb://localhost:27017/local-test-data');
+mongoose.connect('mongodb://database:27017');
 
 // create mongoose schema
 const userSchema = new mongoose.Schema({
