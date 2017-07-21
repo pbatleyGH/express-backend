@@ -7,7 +7,7 @@ const router = express.Router();
 //const conf = require('./conf.js');
 
 // Connect to mongodb
-mongoose.connect('mongodb://database:27017');
+mongoose.connect('mongodb://database');
 
 // create mongoose schema
 const userSchema = new mongoose.Schema({
